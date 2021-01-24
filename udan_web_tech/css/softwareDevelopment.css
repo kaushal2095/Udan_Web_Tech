@@ -1,0 +1,83 @@
+
+#about_landing{
+ height: 100vh;
+
+}
+.landing_page{
+	height:100%;
+    background:url("https://wallpaperplay.com/walls/full/8/f/4/254094.jpg") center/cover no-repeat fixed;
+	 color:#fff;
+}
+.ceo_thought{
+  padding:8% 0;
+  background:url("https://wallpaperplay.com/walls/full/f/3/1/254064.jpg") center/cover no-repeat fixed;
+  position: relative;
+}
+.ceo_thought .owl-theme .owl-controls .owl-page span{
+  background: orange;
+}
+.ceo_thought:before{
+  content: "";
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  background:rgba(0,0,0,0.5);
+}
+.do h2{
+  position: relative;
+  margin-bottom: 100px;
+}
+.do h2:after{
+  content: '';
+  height: 5px;
+  width: 60px;
+  background-color: #F7C713;
+  position: absolute;
+  top: 61px;
+  left: calc(50% - 30px);
+}
+.card-body h3{
+  position: relative;
+  margin-bottom: 30px;
+}
+.card-body h3:after{
+   content: '';
+  height: 2px;
+  width: 60px;
+  background-color: #51c2b9;
+  position: absolute;
+  top: 41px;
+  left: calc(50% - 30px);
+}
+.card-icon{ 
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  line-height: 120px;
+  border:1px solid #F7C713;
+  border-radius: 50%;
+  text-align: center;
+  color:#fff;
+  position: relative;
+
+}
+.card-icon:after{
+ content:"";
+ position: absolute;
+ width:100px;
+ height:100px;
+ background: #F7C713;
+ border-radius: 50%;
+  top: 9px;
+  left: 9px;
+  z-index:-1;
+  transition:all 0.4s ease;
+}
+.card-view:hover .card-icon:after{
+  height: 120px;
+  width: 120px;
+  top: -1px;
+  left: -1px;
+}

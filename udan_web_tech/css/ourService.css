@@ -1,0 +1,50 @@
+ 
+
+#about_landing{
+ height: 100vh;
+
+}
+.landing_page{
+	height:100%;
+    background:url("https://wallpaperaccess.com/full/83156.jpg") center/cover no-repeat fixed;
+	 color:#fff;
+}
+.ceo_thought{
+  padding:8% 0;
+  background:url("https://wallpaperplay.com/walls/full/f/3/1/254064.jpg") center/cover no-repeat fixed;
+  position: relative;
+}
+.ceo_thought .owl-theme .owl-controls .owl-page span{
+  background: orange;
+}
+.ceo_thought:before{
+  content: "";
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  background:rgba(0,0,0,0.5);
+}
+.ourService1 .item{
+  width:100%;
+  height:30vh;
+
+}
+.ourService1 .item img{
+    width:100%;
+  height:100%;
+}
+.ourService h2{
+  position: relative;
+  margin-bottom: 20px
+}
+.ourService h2:before{
+   position: absolute;
+   content: "";
+   background: #F7C713;
+   top:50px;
+   width:30%;
+   height:3px;
+   left:30%;
+}

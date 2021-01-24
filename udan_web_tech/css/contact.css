@@ -1,0 +1,38 @@
+#about_landing{
+ height: 100vh;
+
+}
+.landing_page{
+	height:100%;
+    background:url("https://wallpaperaccess.com/full/83107.jpg") center/cover no-repeat fixed;
+	 color:#fff;
+}
+
+ #contact{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(https://wallpaperaccess.com/full/83115.jpg)center/cover no-repeat fixed;
+  padding:2%;
+  color:#fff;
+}
+
+#inner_btn{
+  border:1px solid rgba(10, 180, 180, 1);
+  background: rgba(20, 20, 20, .6);
+  font-size:18px;
+  color:#fff;
+   padding: 10px 50px;
+  cursor: pointer;
+  transition: .4s;
+}
+#inner_btn:hover{
+   background: rgba(20, 20, 20, .8);
+    padding: 10px 80px;
+}
+ .form-control:focus {
+        border-color: transparent;
+        outline: none;
+        box-shadow: none;
+       
+    }
+    .contact_desc h2{
+      color:navy;
+    }

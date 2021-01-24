@@ -1,0 +1,41 @@
+#about_landing{
+ height: 100vh;
+
+}
+.landing_page{
+	height:100%;
+    background:url("https://wallpaperplay.com/walls/full/2/a/8/171862.jpg") center/cover no-repeat fixed;
+	 color:#fff;
+}
+.blog_section h5{
+	font-weight: 400;
+	font-style:20px;
+}
+.blog_section p span:nth-child(1){
+	font-size: 15px;
+}
+
+.blog_section p span:nth-child(2){
+	font-style: 15px;
+	color:#DFA74A;
+}
+.blog_section .blog_content{
+  font-family: 'Roboto', sans-serif;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 300;
+
+}
+
+.footer-top{
+  background:#B3A4F6;
+}
+.action{
+  border-radius:20px;
+  color:#6259B3;
+  font-style: 20px;
+  font-weight:600;
+}
+.footer-top{
+  color:#fff;
+}
